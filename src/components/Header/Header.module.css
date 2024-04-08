@@ -1,0 +1,26 @@
+.mainContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 20px;
+}
+
+.logoContainer {
+    width: 100px;
+    height: 100px;
+    border: 1.5px solid black;
+}
+
+.logo {
+    margin: auto 0;
+}
+
+.block {
+    margin: auto 0;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+}

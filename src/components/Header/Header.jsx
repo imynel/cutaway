@@ -1,27 +1,21 @@
 import React from 'react';
-import style from './Footer.module.css';
+import style from './Header.module.css';
 
 const Header = () => {
   return (
-    <header>
-      <div className={style.logo}>
-        <p>лого</p>
+    <header className={style.mainContainer}>
+      <div className={style.logoContainer}>
+        <p className={style.logo}>лого</p>
       </div>
-      <div className={style.block}>
-        <a className={style.link} href="#about">
-          О нас
-        </a>
-      </div>
-      <div className={style.block}>
-        <a className={style.link} href="#assortment">
-          Ассортимен
-        </a>
-      </div>
-      <div className={style.block}>
-        <a className={style.link} href="#contacts">
-          Контакты
-        </a>
-      </div>
+      <a className={style.link} href="#about">
+        О нас
+      </a>
+      <a className={style.link} href="#assortment">
+        Ассортимен
+      </a>
+      <a className={style.link} href="#contacts">
+        Контакты
+      </a>
     </header>
   );
 };

@@ -1,0 +1,22 @@
+.mainContainer {
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ grid-template-rows: repeat(2, 1fr);
+ padding: 50px 0;
+ gap: 40px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+}
+
+.text {
+    margin: 0;
+}

@@ -1,0 +1,17 @@
+.mainContainer {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    background-color: #c1b999;
+    margin: 0 -30px -20px;
+}
+
+.container {
+ padding: 35px;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+}
+
+.text{}
